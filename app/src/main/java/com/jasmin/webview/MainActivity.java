@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("link","www.google.com");
                 startActivity(intent);
 
+                Toast.makeText(MainActivity.this, "Google", Toast.LENGTH_SHORT).show();
+
             }
         });
 
